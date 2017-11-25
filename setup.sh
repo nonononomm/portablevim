@@ -10,3 +10,5 @@ brew install wget
 if [ `which ctags` == "/usr/bin/ctags" ]; then
 brew install ctags
 fi
+git config --global user.name "Linh Nguyen"
+git config --global user.email lnguyen639@gmail.com
