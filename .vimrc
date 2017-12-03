@@ -1,5 +1,6 @@
 call plug#begin()
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-fugitive'
 Plug 'flazz/vim-colorschemes'
 " These 2 are used for keeping cursor at same position while using * search
 Plug 'vim-scripts/ingo-library'
