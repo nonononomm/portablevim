@@ -7,6 +7,8 @@ Plug 'vim-scripts/ingo-library'
 Plug 'vim-scripts/SearchHighlighting'
 Plug 'vim-scripts/IndexedSearch'
 Plug 'vim-scripts/taglist.vim'
+"Plug in for puppet coding
+Plug 'rodjek/vim-puppet'
 set hlsearch
 
 " On-demand loading
