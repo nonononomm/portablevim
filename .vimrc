@@ -32,3 +32,16 @@ nmap <C-l> <C-W><C-l>
 nmap <C-]> g<C-]>
 vnoremap // y/<C-R>"<CR>
 set clipboard=unnamed
+
+" case insensitive tag matching
+" go to defn of tag under the cursor
+fun! MatchCaseTag()
+    let ic = &ic
+    set noic
+    try
+        exe 'tjump ' . expand('<cword>')
+    finally
+        let &ic = ic
+    endtry
+endfun
+nnoremap <silent> <c-]> :call MatchCaseTag()<CR>

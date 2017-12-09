@@ -8,3 +8,5 @@ PS1='\[\e[33;1m\]\u@\h: \[\e[31m\]\W\[\e[0m\]$ '
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
 source ~/.proprietary.sh
+
+PORTABLEVIM=/Users/linh/repos/portablevim

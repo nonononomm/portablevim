@@ -1,6 +1,7 @@
 cpath=`pwd`
 rm ~/.vimrc
 rm -rf ~/.vim
+echo -n "PORTABLEVIM=`pwd`" >> $cpath/.bash_profile
 ln -s $cpath/.vimrc ~/.vimrc
 ln -s $cpath/.vim ~/.vim
 ln -s $cpath/.iterm2 ~/.iterm2
