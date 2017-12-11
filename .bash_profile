@@ -10,3 +10,4 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 source ~/.proprietary.sh
 
 PORTABLEVIM=/Users/linh/repos/portablevim
+alias vim="$PORTABLEVIM/vimMac/vim"

@@ -11,6 +11,9 @@ Plug 'vim-scripts/taglist.vim'
 Plug 'rodjek/vim-puppet'
 set hlsearch
 
+"Auto complete"
+Plug 'Valloric/YouCompleteMe'
+
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 call plug#end()
@@ -47,3 +50,4 @@ fun! MatchCaseTag()
     endtry
 endfun
 nnoremap <silent> <c-]> :call MatchCaseTag()<CR>
+

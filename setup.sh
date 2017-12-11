@@ -9,6 +9,8 @@ fi
 
 rm -f ~/.vimrc
 rm -rf ~/.vim
+echo "Plugin: YouCompleteMe needs to be compiled. Go to its website to get instructions"
+
 [ -L ~/.vimrc ] || ln -s $cpath/.vimrc ~/.vimrc
 [ -L ~/.vim ] || ln -s $cpath/.vim ~/.vim
 [ -L ~/.iterm2 ] || ln -s $cpath/.iterm2 ~/.iterm2
