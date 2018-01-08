@@ -68,17 +68,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 301 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>416 189 1018 447 0 0 1440 877 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>138 198 592 584 0 0 1440 877 </string>
+	<string>252 234 937 512 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1909 29 1242 796 1440 -180 1920 1057 </string>
+	<string>454 323 570 452 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>68 130 1074 724 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1687 -112 1214 864 1440 -180 1920 1057 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>1731 -180 400 423 1440 -180 1920 1057 </string>
+	<string>448 94 815 594 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1345,8 +1339,6 @@
 	</array>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
-	<key>PasteTabToStringTabStopSize</key>
-	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1395,7 +1387,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-12-06T19:00:19Z</date>
+	<date>2018-01-06T17:12:56Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUSkippedVersion</key>
